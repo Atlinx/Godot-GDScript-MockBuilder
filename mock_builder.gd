@@ -1,5 +1,7 @@
 extends Reference
-# Builds a mock for a script
+# Builds a mock for a GDscript class file.
+# Note that this does not work for inner classes.
+# This builder also assumes file names are written in snake case.
 
 
 var original_directory: String
